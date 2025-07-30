@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "inova",
+            "database": "inovagrow",
+            "username": "inova_user",
+            "password": "In0v@gr0w2oo2255555"
+        }
+    ]
+}

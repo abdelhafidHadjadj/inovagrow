@@ -1,0 +1,192 @@
+{
+  "common": {
+    "language.en": "English",
+    "language.fr": "French",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "view_more": "View More",
+    "load_more": "Load More",
+    "discover_more": "Discover More"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "footer": {
+    "mission": "We believe that innovation should be accessible to all businesses. Our goal is to empower companies to grow faster through tailor-made technology and human-centric support.",
+    "gettingStarted": "Getting Started",
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "products": "Products",
+    "language": "Language"
+  },
+  "newsletter": {
+  "title": "Subscribe to our Newsletter",
+  "description": "Stay up to date with the latest news, updates and offers from Inova Grow.",
+  "placeholder": "Enter your email address",
+  "button": "Subscribe"
+},
+"why": {
+  "title": "Why Choose Us?",
+  "features": {
+    "technical": "Technical expertise",
+    "support": "Personalized support",
+    "growth": "Fast & innovative growth"
+  }
+},
+  "home": {
+    "title": "Empowering Your Growth",
+    "subtitle": "with Innovative Digital Solutions",
+    "description": "We help businesses accelerate their digital transformation with tailor-made web, mobile, and cloud solutions.",
+    "cta": "Get Started",
+    "cta_services": "Our Services"
+
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "Our mission is to break down the barriers that often limit growth by providing companies with the tools, technologies, and expertise they need to thrive in a rapidly evolving digital world. Through tailor-made solutions and a deep understanding of each client’s unique challenges, we aim to foster sustainable growth, streamline operations, and spark new opportunities."
+  },
+  "services": {
+    "title": "Our Services",
+    "tagline": "Discover our services",
+    "description": "Discover how we help businesses grow through tailored digital solutions, user-centric design, and scalable technologies.",
+    "web": "Web Development",
+    "mobile": "Mobile Applications",
+    "ai": "AI & Data",
+    "webmob": {
+      "title": "Web & Mobile Development",
+      "short_descript": "We build fast, secure, and scalable websites and mobile apps tailored to your business goals.",
+      "description": "We design and build high-performance websites and mobile applications tailored to your business needs.",
+      "offerTitle": "What We Offer",
+      "features": "Custom websites and mobile applications, cross-platform development (iOS & Android), backend & API integration, UI/UX design, and support and maintenance.",
+      "processTag": "Our Approach",
+      "processTitle": "Our Process",
+      "processDescription": "A clear process to turn your idea into a successful digital product.",
+      "process": ["Research", "Design", "Development", "Testing", "Deployment & Support"],
+      "ctaTitle": "Ready to turn your idea into reality?",
+      "ctaText": "Our team is ready to help you build your next digital product.",
+      "ctaButton": "Contact Us"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "short_descript": "We craft intuitive and visually engaging user experiences that elevate your product’s usability.",
+      "description": "We craft intuitive and visually engaging user experiences that elevate your product’s usability, accessibility, and appeal.",
+      "offerTitle": "What We Offer",
+      "features": "Wireframing and prototyping, user flow optimization, accessibility-focused design, interactive UI design, and design system documentation.",
+      "processTag": "Our Design Process",
+      "processTitle": "How We Design",
+      "processDescription": "A user-centered design process to create interfaces that engage and delight your users.",
+      "process": ["Discovery & Research", "Wireframes", "Prototyping", "UI Design", "Validation & Handoff"],
+      "ctaTitle": "Want to enhance your product experience?",
+      "ctaText": "Let’s design an interface your users will love to use.",
+      "ctaButton": "Start Designing"
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "short_descript": "We help businesses grow through targeted campaigns, SEO, social media, and data-driven strategies.",
+      "description": "We help businesses grow through targeted campaigns, SEO, social media, and data-driven strategies. Our team crafts personalized marketing plans to increase visibility and drive conversions. From branding to analytics, we ensure every move is aligned with your goals. Let us help you reach the right audience at the right time with maximum impact.",
+      "offerTitle": "What We Offer",
+      "features": "SEO optimization, paid ads (Google/Facebook), content strategy, email marketing automation, and performance analytics.",
+      "processTag": "Our Strategy",
+      "processTitle": "How We Execute",
+      "processDescription": "A focused marketing strategy to help your brand reach and convert the right audience.",
+      "process": [
+        "Market & audience research",
+        "Campaign planning",
+        "Execution & monitoring",
+        "Optimization",
+        "Reporting & insights"
+      ],
+      "ctaTitle": "Want to scale your online presence?",
+      "ctaText": "Let us drive your growth through powerful digital marketing strategies.",
+      "ctaButton": "Get in Touch"
+    },
+    "graphic": {
+      "title": "Graphic Design",
+      "short_descript": "We craft powerful visual identities that resonate with your audience and elevate your brand.",
+      "description": "We craft powerful visual identities that resonate with your audience and elevate your brand. From logos to marketing assets, we bring creativity and strategy together. Our designs combine aesthetics with function to leave a lasting impression.",
+      "offerTitle": "What We Offer",
+      "features": "Custom branding, logo design, social media graphics, marketing materials, packaging, and print design.",
+      "processTag": "Our Approach",
+      "processTitle": "Our Creative Process",
+      "processDescription": "From ideation to execution, we follow a structured creative process to turn your vision into impactful visuals.",
+      "process": ["Discovery", "Moodboard & Inspiration", "Sketching & Concepts", "Refinement", "Final Delivery"],
+      "ctaTitle": "Ready to build your visual identity?",
+      "ctaText": "Let’s work together to bring your brand to life.",
+      "ctaButton": "Contact Us"
+    },
+    "devops": {
+      "title": "DevOps & Infrastructure",
+      "short_descript": "We streamline your development and deployment workflows with DevOps best practices, CI/CD pipelines, and scalable infrastructure.",
+      "description": "We streamline your development and deployment workflows with DevOps best practices, CI/CD pipelines, and scalable infrastructure. Our solutions help you increase delivery speed, reliability, and security.",
+      "features": "CI/CD pipelines, cloud infrastructure setup (AWS, Azure, GCP), containerization (Docker, Kubernetes), monitoring & alerting, and security automation.",
+      "offerTitle": "What We Offer",
+      "processTag": "Our Approach",
+      "processTitle": "Streamlined DevOps Workflow",
+      "processDescription": "We follow an agile DevOps process that integrates development and operations, enabling continuous delivery, faster iteration, and resilient systems.",
+      "ctaTitle": "Need DevOps Support?",
+      "ctaText": "Let us help you deploy, scale, and secure your applications with confidence.",
+      "ctaButton": "Talk to our experts"
+    },
+     "consulting": {
+      "title": "Tech Consulting",
+      "short_descript": "We guide your business through digital transformation by aligning technology with your strategic goals.",
+      "description": "We guide your business through digital transformation by aligning technology with your strategic goals. Our experts provide tailored advice on software architecture, cloud solutions, and emerging technologies to future-proof your operations.",
+      "features": "Digital strategy, architecture consulting, cloud migration, technology audits, and innovation roadmap planning.",
+      "offerTitle": "What We Offer",
+      "processTag": "Our Approach",
+      "processTitle": "Consulting Process",
+      "processDescription": "We start by understanding your challenges and goals, then deliver expert recommendations, build actionable plans, and support implementation to ensure measurable impact.",
+      "ctaTitle": "Need Expert Guidance?",
+      "ctaText": "Let our consultants help you navigate your tech challenges and make informed decisions.",
+      "ctaButton": "Book a consultation"
+    }
+  },
+  "blog": {
+    "title": "Our Blog",
+    "description": "Nos Posts"
+  },
+  "products": {
+  "tagline": "Discover our products",
+  "title": "Ready-to-use digital solutions",
+  "description": "We have already built powerful tools to help you grow: from complete e-commerce stores to SaaS platforms, ready to deploy for your business.",
+  "cta": "Discover Our Products"
+},
+  
+  "contact": {
+    "subtitle": "Contact us",
+    "title": "We are always ready to help you and answer your questions",
+    "callCenter": "Call Center",
+    "social": "Social Network",
+    "formTitle": "Send a Message",
+    "send": "Send a message",
+    "sending": "Sending..."
+
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {{name}}!",
+    "stats": {
+      "users": "Total Users",
+      "posts": "Published Posts",
+      "sales": "Monthly Revenue"
+    },
+    "actions": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "errors": {
+    "404": "Page not found",
+    "unauthorized": "You must be logged in to access this page"
+  }
+}

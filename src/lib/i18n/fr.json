@@ -1,0 +1,192 @@
+{
+  "common": {
+    "language.en": "Anglais",
+    "language.fr": "Français",
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "yes": "Oui",
+    "no": "Non",
+    "view_more": "Voir Plus",
+    "load_more": "Charger Plus",
+    "discover_more": "Découvrez Plus"
+
+  },
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Connexion",
+    "logout": "Déconnexion"
+  },
+ "footer": {
+    "mission": "Nous croyons que l’innovation doit être accessible à toutes les entreprises. Notre objectif est de permettre une croissance rapide grâce à une technologie sur mesure et un accompagnement humain.",
+    "gettingStarted": "Commencer",
+    "faq": "FAQ",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "products": "Produits",
+    "language": "Langue"
+  },
+  "newsletter": {
+    "title": "Abonnez-vous à notre newsletter",
+    "description": "Restez informé des dernières actualités, offres et mises à jour d’Inova Grow.",
+    "placeholder": "Entrez votre adresse email",
+    "button": "S’abonner"
+  },
+  "why": {
+    "title": "Pourquoi nous choisir ?",
+    "features": {
+      "technical": "Expertise technique",
+      "support": "Accompagnement personnalisé",
+      "growth": "Croissance rapide et innovante"
+    }
+  },
+  "home": {
+    "title": "Donnez un élan à votre croissance",
+    "subtitle": "avec des solutions digitales innovantes",
+    "description": "Nous aidons les entreprises à accélérer leur transformation digitale grâce à des solutions web, mobiles et cloud sur mesure.",
+    "cta": "Commencer",
+    "cta_services": "Nos Services"
+  },
+  "about": {
+    "title": "Qui sommes-nous",
+    "description": "Notre mission est de lever les barrières qui freinent souvent la croissance en fournissant aux entreprises les outils, les technologies et l’expertise dont elles ont besoin pour prospérer dans un monde numérique en constante évolution. Grâce à des solutions sur mesure et une compréhension approfondie des défis propres à chaque client, nous visons à favoriser une croissance durable, à optimiser les opérations et à créer de nouvelles opportunités."
+  },
+  "services": {
+    "title": "Nos Services",
+    "tagline": "Découvrez nos services",
+    "description": "Découvrez comment nous aidons les entreprises à se développer grâce à des solutions numériques sur mesure, un design centré sur l’utilisateur et des technologies évolutives.",
+    "web": "Développement Web",
+    "mobile": "Applications Mobiles",
+    "ai": "IA & Données",
+    "webmob": {
+      "title": "Développement Web & Mobile",
+      "short_descript": "Nous créons des sites web et applications mobiles rapides, sécurisés et évolutifs, adaptés à vos objectifs business.",
+      "description": "Nous concevons et développons des sites web et des applications mobiles performants, adaptés à vos besoins métier.",
+      "offerTitle": "Ce que nous offrons",
+      "features": "Sites web et applications mobiles sur mesure, développement multiplateforme (iOS & Android), intégration backend & API, design UI/UX et support et maintenance.",
+      "processTag": "Notre méthode",
+      "processTitle": "Notre Processus",
+      "processDescription": "Un processus clair pour transformer votre idée en produit digital réussi.",
+      "process": ["Recherche", "Conception", "Développement", "Tests", "Déploiement & Support"],
+      "ctaTitle": "Prêt à concrétiser votre idée ?",
+      "ctaText": "Notre équipe est là pour créer votre prochain produit digital.",
+      "ctaButton": "Contactez-nous"
+    },
+    "uiux": {
+      "title": "Design UI/UX",
+      "short_descript": "Nous concevons des expériences utilisateurs intuitives et engageantes qui renforcent l’utilisabilité de votre produit.",
+      "description": "Nous concevons des expériences utilisateur intuitives et attrayantes qui améliorent l’utilisabilité, l’accessibilité et l’image de votre produit.",
+      "offerTitle": "Ce que nous offrons",
+      "features": "Wireframes et prototypes, optimisation des parcours utilisateurs, design accessible, UI interactif, et documentation de systèmes de design.",
+      "processTag": "Notre processus de design",
+      "processTitle": "Comment nous concevons",
+      "processDescription": "Un processus centré sur l’utilisateur pour créer des interfaces engageantes et efficaces.",
+      "process": ["Découverte & Recherche", "Wireframes", "Prototypage", "Design UI", "Validation & Livraison"],
+      "ctaTitle": "Envie d’améliorer l’expérience de vos utilisateurs ?",
+      "ctaText": "Créons une interface que vos utilisateurs vont adorer.",
+      "ctaButton": "Commencer le design"
+  },
+  "marketing": {
+    "title": "Marketing Digital",
+    "short_descript": "Nous aidons votre entreprise à croître grâce à des campagnes ciblées, du SEO, des réseaux sociaux et des stratégies basées sur les données.",
+    "description": "Nous aidons les entreprises à se développer grâce à des campagnes ciblées, au SEO, aux réseaux sociaux et à des stratégies fondées sur les données. Notre équipe élabore des plans marketing personnalisés pour accroître votre visibilité et générer des conversions. Du branding à l’analyse, chaque action est alignée sur vos objectifs. Atteignez la bonne audience au bon moment avec un impact maximal.",
+    "offerTitle": "Ce que nous offrons",
+    "features": "Optimisation SEO, publicités payantes (Google/Facebook), stratégie de contenu, automatisation d'e-mails marketing et analyse des performances.",
+    "processTag": "Notre stratégie",
+    "processTitle": "Comment nous procédons",
+    "processDescription": "Une stratégie marketing ciblée pour aider votre marque à atteindre et convertir le bon public.",
+    "process": [
+      "Étude de marché et du public",
+      "Planification de la campagne",
+      "Exécution et suivi",
+      "Optimisation",
+      "Rapports et analyses"
+    ],
+    "ctaTitle": "Vous souhaitez développer votre présence en ligne ?",
+    "ctaText": "Nous vous accompagnons avec des stratégies de marketing digital performantes.",
+    "ctaButton": "Nous contacter"
+  },
+  "graphic": {
+    "title": "Design Graphique",
+    "short_descript": "Nous construisons des identités visuelles puissantes qui résonnent avec votre audience et valorisent votre marque.",
+    "description": "Nous créons des identités visuelles percutantes qui résonnent avec votre audience et renforcent votre marque. Du logo aux supports marketing, nous allions créativité et stratégie. Nos designs mêlent esthétique et fonctionnalité pour marquer les esprits.",
+    "offerTitle": "Ce que nous offrons",
+    "features": "Branding sur mesure, création de logos, visuels pour les réseaux sociaux, supports marketing, packaging et design imprimé.",
+    "processTag": "Notre approche",
+    "processTitle": "Notre processus créatif",
+    "processDescription": "De l’idéation à la livraison, nous suivons un processus structuré pour transformer votre vision en visuels percutants.",
+    "process": ["Découverte", "Moodboard & Inspiration", "Croquis & Concepts", "Affinage", "Livraison finale"],
+    "ctaTitle": "Prêt à construire votre identité visuelle ?",
+    "ctaText": "Collaborons pour donner vie à votre marque.",
+    "ctaButton": "Contactez-nous"
+  },
+   "devops": {
+      "title": "DevOps & Infrastructure",
+      "short_descript": "Nous optimisons vos workflows de développement et déploiement avec les meilleures pratiques DevOps, CI/CD et une infrastructure scalable.",
+      "description": "Nous optimisons vos processus de développement et de déploiement grâce aux meilleures pratiques DevOps, aux pipelines CI/CD et à une infrastructure évolutive. Nos solutions vous aident à augmenter la rapidité, la fiabilité et la sécurité des livraisons.",
+      "features": "Pipelines CI/CD, configuration d'infrastructure cloud (AWS, Azure, GCP), conteneurisation (Docker, Kubernetes), supervision et alertes, automatisation de la sécurité.",
+      "offerTitle": "Ce que nous proposons",
+      "processTag": "Notre approche",
+      "processTitle": "Workflow DevOps optimisé",
+      "processDescription": "Nous suivons un processus DevOps agile qui intègre développement et opérations, permettant la livraison continue, une itération rapide et des systèmes résilients.",
+      "ctaTitle": "Besoin d'un accompagnement DevOps ?",
+      "ctaText": "Nous vous aidons à déployer, faire évoluer et sécuriser vos applications en toute confiance.",
+      "ctaButton": "Parlez à nos experts"
+    },
+     "consulting": {
+      "title": "Conseil en Technologies",
+      "short_descript": "Nous accompagnons votre transformation digitale en alignant les technologies avec vos objectifs stratégiques.",
+      "description": "Nous accompagnons votre entreprise dans sa transformation digitale en alignant la technologie avec vos objectifs stratégiques. Nos experts vous conseillent sur l’architecture logicielle, les solutions cloud et les technologies émergentes pour pérenniser vos opérations.",
+      "features": "Stratégie digitale, conseil en architecture, migration vers le cloud, audits technologiques, planification d'innovation.",
+      "offerTitle": "Ce que nous proposons",
+      "processTag": "Notre approche",
+      "processTitle": "Processus de conseil",
+      "processDescription": "Nous commençons par comprendre vos défis et objectifs, puis nous fournissons des recommandations expertes, élaborons des plans d’action et accompagnons leur mise en œuvre pour un impact mesurable.",
+      "ctaTitle": "Besoin de conseils experts ?",
+      "ctaText": "Nos consultants vous aident à surmonter vos défis techniques et à prendre les bonnes décisions.",
+      "ctaButton": "Réserver une consultation"
+    }
+},
+  "blog": {
+    "title": "Nos Posts",
+    "description": "Nos Posts"
+  },
+  "products": {
+    "tagline": "Découvrez nos produits",
+    "title": "Solutions digitales prêtes à l’emploi",
+    "description": "Nous avons déjà construit des outils puissants pour vous aider à croître : des boutiques e-commerce complètes aux plateformes SaaS prêtes à déployer pour votre entreprise.",
+    "cta": "Voir nos produits"
+  },
+  "contact": {
+    "subtitle": "Contactez-nous",
+    "title": "Nous sommes toujours prêts à vous aider et à répondre à vos questions",
+    "callCenter": "Centre d’appel",
+    "social": "Réseaux sociaux",
+    "formTitle": "Envoyer un message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours"
+
+  },
+  
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bon retour, {{name}} !",
+    "stats": {
+      "users": "Utilisateurs",
+      "posts": "Articles publiés",
+      "sales": "Revenus mensuels"
+    },
+    "actions": {
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    }
+  },
+  "errors": {
+    "404": "Page introuvable",
+    "unauthorized": "Vous devez être connecté pour accéder à cette page"
+  }
+}

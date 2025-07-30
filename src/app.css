@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+:root {
+  --color-dark: #0F0F0F;
+  --color-light: #F5F5F5;
+  --color-primary-from: #5E2AFF;  /* indigo-500 */
+  --color-primary-via: #190F82;   /* purple-500 */
+  --color-primary-to: #269206;    /* green-500 */
+}
+
+body {
+  font-family: 'Syne', sans-serif;
+  background-color: var(--color-light);
+}
+
+
+
+.bg-dark {
+  background-color: var(--color-light);
+}
+
+.gradient-primary {
+  background-image: linear-gradient(to right, var(--color-primary-from), var(--color-primary-via), var(--color-primary-to));
+}
+
