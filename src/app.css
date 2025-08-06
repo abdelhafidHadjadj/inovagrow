@@ -17,6 +17,21 @@ body {
   background-color: var(--color-light);
 }
 
+/* Empêche les mots très longs de déborder */
+.blog-content,
+.blog-content p,
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content li,
+.blog-content blockquote,
+:global(.ql-editor)       /* côté éditeur : Quill */
+{
+  overflow-wrap: break-word; /* même effet que word-wrap: break-word */
+  word-break: break-word;    /* coupe un mot si nécessaire */
+  white-space: normal;       /* s’assure que le texte se renvoie à la ligne */
+}
+
 
 
 .bg-dark {

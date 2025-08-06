@@ -62,7 +62,10 @@
       <!-- Account / Sign-up -->
       {#if $page.data.user}
         <!-- connecté -->
-        <a href={`/${lang}/dashboard`} class="flex items-center gap-2 text-gray-300 hover:text-white transition">
+        <a
+          href={$page.data.user.role === 'admin' ? '/dashboard' : `/${lang}/dashboard`}
+          class="flex items-center gap-2 text-gray-300 hover:text-white transition"
+        >
           <User class="w-5 h-5" />
           <span class="hidden lg:inline">{$page.data.user.name}</span>
         </a>
@@ -108,7 +111,12 @@
           <LanguageSwitcher />
 
           {#if $page.data.user}
-            <a href="/dashboard" class="text-white text-sm px-4 py-2">Dashboard</a>
+            <a
+              href={$page.data.user.role === 'admin' ? '/dashboard' : `/${lang}/dashboard`}
+              class="text-white text-sm px-4 py-2"
+            >
+              Dashboard
+            </a>
           {:else}
             <a href={`/${lang}/signup`} class="text-white text-sm px-4 py-2">Sign up</a>
           {/if}

@@ -114,6 +114,9 @@ CREATE TABLE IF NOT EXISTS blog_tags (
 );
 
 
+
+
+
 -- Index pour les recherches rapides
 CREATE INDEX IF NOT EXISTS idx_blogs_slug ON blogs(slug);
 CREATE INDEX IF NOT EXISTS idx_blogs_author_id ON blogs(author_id);
@@ -155,3 +158,24 @@ BEFORE UPDATE ON blogs
 FOR EACH ROW
 EXECUTE FUNCTION update_updated_at_column();
 
+
+
+
+--@block
+CREATE TABLE IF NOT EXISTS conversations (
+  id         UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id    UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  title      TEXT DEFAULT 'New chat',
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+
+
+--@block
+CREATE TABLE IF NOT EXISTS chat_messages (
+  id         SERIAL PRIMARY KEY,
+  convo_id   UUID REFERENCES conversations(id) ON DELETE CASCADE,
+  role       TEXT CHECK (role IN ('user','assistant')),
+  content    TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT now()
+);

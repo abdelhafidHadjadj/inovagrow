@@ -40,6 +40,8 @@ services:
       OPENROUTER_API_KEY: ${OPENROUTER_API_KEY}
       URL_AGENT_AI: ${URL_AGENT_AI}
     command: ["node", "build"]
+    volumes:
+      - ./src/uploads:/app/src/uploads 
 
   n8n:
     image: n8nio/n8n

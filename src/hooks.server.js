@@ -8,7 +8,7 @@ export async function handle({ event, resolve }) {
   const pathname     = event.url.pathname;
   const langFromPath = pathname.split('/')[1];
 
-  /* 1 ▸ Determine language (path → cookie → default) */
+  // 1 ▸ Determine language (path → cookie → default)
   let lang;
   if (supportedLanguages.includes(langFromPath)) {
     lang = langFromPath;
@@ -16,20 +16,20 @@ export async function handle({ event, resolve }) {
     const cookieLang = event.cookies.get('lang');
     lang = supportedLanguages.includes(cookieLang) ? cookieLang : 'en';
   }
-  event.locals.lang = lang;           // available to all endpoints
-  const prefix = `/${lang}`;          // "/en" or "/fr"
+  event.locals.lang = lang;
+  const prefix = `/${lang}`;
 
-  /* 2 ▸ For *public* pages (not /api, /dashboard, /login) enforce prefix */
+  // 2 ▸ For *public* pages (not /api, /dashboard, /login, /uploads) enforce prefix
   const isPublicPage =
     !pathname.startsWith('/api') &&
     !pathname.startsWith('/dashboard') &&
-    !pathname.startsWith('/login');
+    !pathname.startsWith('/uploads');  // ⬅️ empêche la redirection de /uploads
 
   if (isPublicPage && !pathname.startsWith(prefix)) {
     throw redirect(307, `${prefix}${pathname}`);
   }
 
-  /* 3 ▸ Session lookup (same as before) */
+  // 3 ▸ Session lookup
   const sessionId = event.cookies.get('sessionId');
   if (sessionId) {
     try {
@@ -46,12 +46,12 @@ export async function handle({ event, resolve }) {
     }
   }
 
-  /* 4 ▸ Global dashboard guard */
+  // 4 ▸ Global dashboard guard
   if (pathname.startsWith('/dashboard') && !event.locals.user) {
     throw redirect(303, `${prefix}/login`);
   }
 
-  /* 5 ▸ Role-specific guards */
+  // 5 ▸ Role-specific guards
   if (pathname.startsWith('/dashboard/admin') &&
       event.locals.user?.role !== 'admin') {
     throw redirect(303, `${prefix}/login`);

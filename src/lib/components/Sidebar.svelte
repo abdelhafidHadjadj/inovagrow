@@ -1,5 +1,5 @@
 <script>
-  import { LayoutDashboard, Users, SlidersHorizontal, LogOut, AppWindow } from 'lucide-svelte';
+  import { LayoutDashboard, Users, SlidersHorizontal, LogOut, AppWindow, Boxes, Tags } from 'lucide-svelte';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
   import { derived } from 'svelte/store';
@@ -9,6 +9,8 @@
   const links = [
     { label: 'Dashboard', icon: LayoutDashboard, href: '/dashboard' },
     { label: 'Users', icon: Users, href: '/dashboard/users' },
+    { label: 'Categories', icon: Boxes, href: '/dashboard/categories' },
+    { label: 'Tags', icon: Tags, href: '/dashboard/tags' },
     { label: 'Blogs', icon: AppWindow , href: '/dashboard/blogs' },
     { label: 'Settings', icon: SlidersHorizontal, href: '/dashboard/settings' }
   ];
@@ -33,11 +35,12 @@
   <!-- Navigation -->
   <nav class="flex-1 overflow-y-auto p-4">
     {#each links as { label, icon: Icon, href }}
-      <a
-        href={href}
-        class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-800 transition
-              {($currentPath.startsWith(href)) ? 'bg-gray-800 font-semibold' : ''}"
-      >
+        <a
+          href={href}
+          class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-gray-800 transition
+                {($currentPath === href || ($currentPath.startsWith(href + '/') && href !== '/dashboard')) 
+                  ? 'bg-gray-800 font-semibold' : ''}"
+        >
         <Icon class="w-5 h-5" />
         <span>{label}</span>
       </a>

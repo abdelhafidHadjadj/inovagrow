@@ -9,10 +9,9 @@
 	import Blog from '$lib/sections/Blog.svelte';
 	import ProductHighlight from '$lib/sections/ProductHighlight.svelte';
 	import Newsletter from '$lib/sections/Newsletter.svelte';
-
+    export let data; 
 
   const lang = get(locale);
-  const user = { name: 'Abdelhafid' };
 
    let body = '';
 
@@ -32,7 +31,7 @@
   <WhyChooseUs/>
   <AboutUs/>
   <Services/>
-  <Blog/>
+  <Blog posts={data.posts}/>
   <ProductHighlight/>
   <Newsletter/>
 </main>

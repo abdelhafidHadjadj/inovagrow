@@ -1,5 +1,5 @@
 <script>
-  import "../../../app.css";
+  import "../../app.css";
   import SidebarDashboard from '$lib/components/Sidebar.svelte'; // adapte le chemin selon ton projet
   export let data;
 </script>
